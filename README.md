@@ -20,4 +20,7 @@ npm run start
 ```bash
 npm install
 npm run dev
-_Updated: 2025-10-22_
+_Updated: 2025-10-21_
+## Related
+- [Talent Protocol Roadmap](https://github.com/Igorehadem/talent-protocol-roadmap)
+- [Onchain Safety Checklist](https://github.com/Igorehadem/onchain-safety-checklist)
