@@ -22,5 +22,5 @@ npm install
 npm run dev
 _Updated: 2025-10-21_
 ## Related
-- [Onchain Safety Checklist](https://github.com/Igorehadem/onchain-safety-checklist)
-go to main
+- [Base Frame Tester](https://github.com/Igorehadem/base-frame-tester)
+- [Farcaster Bot Core](https://github.com/Igorehadem/farcaster-bot-core)
