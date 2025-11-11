@@ -23,4 +23,26 @@ npm run dev
 _Updated: 2025-10-21_
 ## Related
 - [Base Frame Tester](https://github.com/Igorehadem/base-frame-tester)
-- [Farcaster Bot Core](https://github.com/Igorehadem/farcaster-bot-core)
+- [Farcaster Bot Core](https://github.com/Igorehadem/farcaster-bot-co
+
+```
+## 🧱 Project Structure
+src/
+├── api/ # Neynar API client
+├── frames/ # Farcaster Frame logic
+├── onchain/ # Base onchain event hooks
+├── utils/ # Helpers & schedulers
+├── index.ts # Entry point
+config.ts # Env + constants
+.env.example # Environment variables
+
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Implement Neynar API requests  
+- [ ] Add onchain event streaming  
+- [ ] Integrate Base Frame Tester demo  
+- [ ] Add deployment script (Vercel / Cloudflare Pages)
+
