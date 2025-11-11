@@ -26,16 +26,6 @@ _Updated: 2025-10-21_
 - [Farcaster Bot Core](https://github.com/Igorehadem/farcaster-bot-co
 
 ```
-## 🧱 Project Structure
-src/
-├── api/ # Neynar API client
-├── frames/ # Farcaster Frame logic
-├── onchain/ # Base onchain event hooks
-├── utils/ # Helpers & schedulers
-├── index.ts # Entry point
-config.ts # Env + constants
-.env.example # Environment variables
-
 
 ---
 
