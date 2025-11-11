@@ -1,2 +1,10 @@
 # Farcaster Bot Starter – Task Tracker
-(placeholder for daily development plan)
+
+## ✅ Completed
+- [x] Repo structure setup
+- [x] README + .env.example created
+
+## 🧩 Next steps
+- [ ] Implement Neynar API mock
+- [ ] Add scheduler loop example
+- [ ] Prepare test deployment on Vercel
