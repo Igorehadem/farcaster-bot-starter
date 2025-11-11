@@ -1,4 +1,11 @@
+import { getRecentCasts, postDemoCast } from "./api/neynar";
 import { config } from "../config";
 
-console.log(`[${new Date().toISOString()}] Farcaster Bot Starter initialized.`);
-console.log(`Log level: ${config.logLevel}`);
+async function main() {
+  console.log(`[INIT] Farcaster Bot Starter (API=${config.neynarKey ? "✓" : "✗"})`);
+  const casts = await getRecentCasts();
+  console.log("Recent casts:", casts.length);
+  await postDemoCast("Hello from Farcaster Bot Starter demo 🚀");
+}
+
+main();
